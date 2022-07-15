@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercise 4</title>
+    <style>
+     dl {
+         padding: 0.5em;
+     }
+     dt {
+         float: left;
+         clear: left;
+         width: 100px;
+         text-align: right;
+         font-weight: bold;
+         color: #f0595b;
+     }
+     dt::after {
+         content: ":";
+     }
+     dd {
+         margin: 0 0 0 110px;
+         padding: 0 0 0.5em 0;
+     }
+
+     input[type="submit"] {
+         display: inline-block;
+         margin-top: 15px;
+         color: #fff;
+         background: #f0595b;
+         border-color: #f0595b;
+         border-radius: 5px;
+         width: 100px;
+         height: 50px;
+     }
+
+     button {
+         display: inline-block;
+         margin-top: 15px;
+         color: #fff;
+         background: #5CAFDE;
+         border-color: #5CAFDE;
+         border-radius: 5px;
+         width: 100px;
+         height: 50px;
+     }
+    </style>
+  </head>
+  <body>
+    <script>
+    </script>
+    <button id="btnAdd">Add more schedules</button>
+    <div id="#form-container">
+      <form>
+        <fieldset>
+          <label>Staff Name : </label>
+          <select name= "staff_id" class="staff-dropdown"> </select>
+          <label>Time : </label>
+          <input name="time" type="time"></input>
+          <label>Date : </label>
+          <input name="date" type="date"></input>
+        </fieldset>
+      </form>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+
+    <script src="javascripts/exercise4.js"></script>
+  </body>
+</html>
