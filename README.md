@@ -1,2 +1,2 @@
 # JavaScript-Small-Problems
-Set of small problem in Ruby from Launch School
+Set of small problem in JavaScript from Launch School
